@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Style Switcher -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <!-- Mail function -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "TSlRsXlM9IcnuLX6P",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="notification-container" style="position: fixed; top: 20px; right: 20px; z-index: 1000;"></div>
+
+    <!-- Main container Start -->
+    <div class="main-container">
+        <!-- Aside Start -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span></span>M</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="#about"><i class="fa fa-user"></i> About</a>
+                </li>
+                <li>
+                    <a href="#services"><i class="fa fa-list"></i> Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- Aside End -->
+
+        <!-- Main Content Start-->
+        <div class="main-content">
+            <!-- Home Section Start -->
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Nguyễn Minh</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Java Developer</span></h3>
+                            <p>I'm a junior Java Developer with 3 years of experience. My expertise lies in creating
+                                Java applications, Java web applications, and much more
+                            </p>
+                            <a href="#" class="btn" id="download-cv">Download CV</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="img/ava.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home Section End -->
+            <!-- About Section start -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>hi, I'm Minh and I'm a<span> Java Developer</span></h3>
+                                    <p>I am a passionate Java Developer with expertise in Core Java and backend
+                                        development
+                                        using frameworks like Spring and Hibernate. I focus on building scalable, secure
+                                        solutions and enjoy tackling challenges in software architecture. Committed to
+                                        continuous learning, I aim to enhance my skills in RESTful APIs, Microservices,
+                                        and
+                                        cloud technologies while delivering clean and efficient code to impactful
+                                        projects.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="persinal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birth: <span>22 Dec 2006</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age: <span>18</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website: <span>www.M22.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email: <span>ducminh2212345@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree: <span>Java</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>phone: <span>+084 986221206</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City: <span>HaNoi</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance: <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn" id="download-cv2">Download CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:82%;"></div>
+                                                <div class="skill-percent">82%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5>Java</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:95%;"></div>
+                                                <div class="skill-percent">95%</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="skill-item padd-15">
+                                            <h5>SQL Server</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- Timelin item  -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2021-2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Studied at FPT Polytechnic
+                                                        Intermediate Level</h4>
+                                                    <p class="timeline-text">
+                                                        During this time, I developed a strong foundation in
+                                                        Information Technology, focusing on practical skills and
+                                                        hands-on learning. My coursework emphasized software
+                                                        development, web technologies, and problem-solving
+                                                        strategies.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2024-2025
+                                                    </h3>
+                                                    <h4 class="timeline-title">Pursuing a College Degree at FPT
+                                                        Polytechnic</h4>
+                                                    <p class="timeline-text">
+                                                        Currently, I am enhancing my expertise by pursuing advanced
+                                                        studies in IT. This program provides deeper insights into
+                                                        areas like system architecture, project management, and
+                                                        cutting-edge technologies, preparing me for professional
+                                                        challenges in the tech industry.F
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!-- Timelin item  -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>01/2024 - 05/2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Mobile World Smartphone Sales App</h4>
+                                                    <p class="timeline-text">
+                                                        A mobile app for Mobile World that allows users to browse and
+                                                        purchase the latest smartphones with ease. The app features
+                                                        user-friendly navigation, detailed product descriptions, and
+                                                        secure payment options.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>06/2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">AI-Based Virtual Fitting Application
+                                                        Polytechnic</h4>
+                                                    <p class="timeline-text">
+                                                        An AI-powered virtual fitting app that allows users to try on
+                                                        clothes virtually. By leveraging cutting-edge machine learning
+                                                        algorithms, the app provides a realistic experience of how
+                                                        clothes would fit and look on them.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>07/2024-08/2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Website Interface Development:
+                                                        Polytechnic</h4>
+                                                    <p class="timeline-text">
+                                                        A modern and responsive website interface developed to enhance
+                                                        user experience. The design focuses on intuitive navigation,
+                                                        aesthetic appeal, and seamless interaction across devices.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section end -->
+            <!-- Services Section Start-->
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web deisgn</h4>
+                                <p>Skilled in creating visually appealing and user-friendly web designs. I focus on
+                                    crafting responsive, interactive, and intuitive layouts that enhance the overall
+                                    user experience.</p>
+                            </div>
+                        </div>
+                        <!-- Service item End -->
+
+                        <!-- Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Software Development</h4>
+                                <p>Experienced in developing efficient and scalable software solutions. I specialize in
+                                    building applications using a range of programming languages and frameworks,
+                                    ensuring quality and performance</p>
+                            </div>
+                        </div>
+                        <!-- Service item End -->
+
+                        <!-- Service item Start -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-database"></i>
+                                </div>
+                                <h4>Database Management:</h4>
+                                <p>Proficient in managing and optimizing databases. I have expertise in database design,
+                                    SQL querying, and performance tuning to ensure data integrity and fast access.</p>
+                            </div>
+                        </div>
+                        <!-- Service item End -->
+                    </div>
+                </div>
+            </section>
+            <!-- Services Section  End-->
+
+            <!-- Portfolio Section start-->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My last project:</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="img/project1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="img/project2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+
+                        <!-- portfolio item start -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="img/project3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio item end -->
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio Section end-->
+
+            <!--Contact  Section start-->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+
+                    <h3 class="contact-title padd-15">
+                        Do you have any questions?
+                    </h3>
+                    <h4 class="contact-sub-title padd-15">I'm at your services</h4>
+                    <div class="row">
+                        <!-- Contact info start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call me</h4>
+                            <p>+84 86221206</p>
+                        </div>
+                        <!-- Contact info end -->
+
+                        <!-- Contact info start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>ducminh2212345@gmai.com</p>
+                        </div>
+                        <!-- Contact info end -->
+
+                        <!-- Contact info start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>...</p>
+                        </div>
+                        <!-- Contact info end -->
+                    </div>
+                    <h3 class="contact-title padd-15">
+                        Send me an email
+                    </h3>
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="message" placeholder="Message"
+                                            id=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" onclick="sendMail()" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Contact  Section end-->
+        </div>
+        <!-- Main Content End-->
+    </div>
+
+    <!-- Style Switcher Start -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        </div>
+    </div>
+    <!-- Style Switcher End -->
+    <!-- Main container End -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/mailFunction.js"></script>
+    <script src="js/style-switch.js"></script>
+    <!-- Download CV function -->
+    <script>
+        document.getElementById("download-cv").addEventListener("click", function (e) {
+            e.preventDefault();
+
+            // CV path
+            const filePath = "/img/doc/CV-Nguyễn Đức Minh.pdf";
+
+            // Download URL
+            const a = document.createElement("a");
+            a.href = filePath;
+            a.download = "NguyenDucMinh_CV.pdf";
+            a.click();
+        });
+
+
+        document.getElementById("download-cv2").addEventListener("click", function (e) {
+            e.preventDefault();
+
+              // CV path
+            const filePath = "/img/doc/CV-Nguyễn Đức Minh.pdf";
+
+            // Download URL
+            const a = document.createElement("a");
+            a.href = filePath;
+            a.download = "NguyenDucMinh_CV.pdf";
+            a.click();
+        });
+
+    </script>
+</body>
+
+</html>
