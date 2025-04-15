@@ -540,6 +540,13 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
+.about .about-content .timeline .timeline-git {
+  line-height: 25px;
+  font-size: 10px;
+  text-align: left;
+  color: var(--text-black-700);
+}
+
 /* Service */
 .service .container {
   padding-bottom: 40px;
@@ -782,6 +789,10 @@ height: 140px;
     overflow-wrap: break-word;
     max-width: 100%;
   }
+  .about .about-content .timeline .timeline-git {
+    font-size: 6x;
+    text-align: left;
+  }
 }
 
 @media(max-width:767px){
@@ -801,5 +812,10 @@ height: 140px;
     word-wrap: break-word; /* Cho phép xuống dòng */
     overflow-wrap: break-word;
     max-width: 100%;
+  }
+
+  .about .about-content .timeline .timeline-git {
+    font-size: 6px;
+    text-align: left;
   }
 }
